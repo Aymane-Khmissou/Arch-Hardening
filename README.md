@@ -41,8 +41,8 @@ The script runs the following steps in order:
 ## Usage
 
 ```bash
-git clone https://github.com/USERNAME/REPO_NAME.git
-cd REPO_NAME
+git clone https://github.com/Aymane-Khmissou/Arch-Hardening.git
+cd Arch-Hardening
 chmod +x Hardening.sh
 sudo ./Hardening.sh
 ```
