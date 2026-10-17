@@ -62,11 +62,9 @@ echo "Firewall DONE!"
 #----------------------------------------------------
 # Kernel & Network Hardening (Sysctl)
 #----------------------------------------------------
-echo "[*] جاري تطبيق إعدادات حماية النواة والشبكة (Sysctl)..."
 
 SYSCTL_CONF="/etc/sysctl.d/99-security.conf"
 
-# كتابة قواعد الحماية في ملف خاص بـ sysctl.d
 cat << 'EOF' > "$SYSCTL_CONF"
 # --- IP Spoofing Protection ---
 net.ipv4.conf.all.rp_filter = 1
